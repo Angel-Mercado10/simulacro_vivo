@@ -1,0 +1,13 @@
+{
+  "name": "simulacro-vivo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@12.15.0",
+  "engines": { "node": ">=20.17" },
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "test:live": "echo \"Live tests require LIVE_TESTS=1 and MODEL_API_KEY\""
+  }
+}

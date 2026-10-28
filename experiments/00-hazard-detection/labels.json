@@ -1,0 +1,18 @@
+{
+  "photos": [
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.16 PM.jpeg", "roomKind": "bedroom", "hazards": [{ "type": "REST_AREA_UNDER_WINDOW", "note": "Cama junto a ventana grande" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg", "roomKind": "other", "hazards": [{ "type": "TALL_FURNITURE_UNANCHORED", "note": "Ropero alto de madera tras la puerta" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg", "roomKind": "bedroom", "hazards": [{ "type": "TALL_FURNITURE_UNANCHORED", "note": "Mueble alto con objetos encima" }, { "type": "HEAVY_OBJECT_HIGH", "note": "Objetos pesados sobre el mueble alto" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg", "roomKind": "bedroom", "hazards": [{ "type": "BREAKABLES_OPEN_SHELF", "note": "Repisas abiertas con objetos sobre la cama" }, { "type": "HEAVY_OBJECT_HIGH", "note": "Cajas en repisa alta sobre la cama" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (2).jpeg", "roomKind": "bathroom", "hazards": [] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg", "roomKind": "bathroom", "hazards": [{ "type": "BREAKABLES_OPEN_SHELF", "note": "Repisas abiertas sobre el WC con frascos" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg", "roomKind": "bedroom", "hazards": [{ "type": "HEAVY_OBJECT_HIGH", "note": "Tele sobre cajonera" }, { "type": "GLASS_OVER_REST_AREA", "note": "Espejos en el tocador junto a la cama" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (5).jpeg", "roomKind": "hallway", "hazards": [] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg", "roomKind": "kitchen", "hazards": [] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg", "roomKind": "kitchen", "hazards": [{ "type": "BREAKABLES_OPEN_SHELF", "note": "Repisa abierta con botellas hacia el patio" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg", "roomKind": "living", "hazards": [{ "type": "TALL_FURNITURE_UNANCHORED", "note": "Mueble alto de madera a la izquierda" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg", "roomKind": "hallway", "hazards": [{ "type": "EXIT_PATH_BLOCKED", "note": "Cajas apiladas junto a la puerta de entrada" }, { "type": "BREAKABLES_OPEN_SHELF", "note": "Repisa esquinera abierta con frascos" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg", "roomKind": "other", "hazards": [{ "type": "TALL_FURNITURE_UNANCHORED", "note": "Vitrina alta del negocio en la cochera (ruta de salida)" }, { "type": "BREAKABLES_OPEN_SHELF", "note": "Anaqueles abiertos del negocio" }] },
+    { "file": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg", "roomKind": "other", "hazards": [{ "type": "HEAVY_OBJECT_HIGH", "note": "Mercancia colgando y en alto en la cochera (ruta de salida)" }] }
+  ]
+}

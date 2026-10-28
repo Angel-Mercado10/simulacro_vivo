@@ -1,0 +1,11 @@
+{
+  "photos": [
+    {
+      "file": "room1-a.jpg",
+      "roomKind": "bedroom",
+      "hazards": [
+        { "type": "TALL_FURNITURE_UNANCHORED", "note": "Librero alto junto a la cama" }
+      ]
+    }
+  ]
+}

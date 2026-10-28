@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: simulacro-vivo
+    runtime: node
+    plan: starter
+    healthCheckPath: /api/health
+    buildCommand: corepack enable && corepack pnpm install && corepack pnpm -r build
+    startCommand: corepack pnpm --filter @simulacro/api exec tsx src/main.ts
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: MODEL_API_KEY
+        sync: false
+      - key: DEMO_ACCESS_CODE
+        sync: false
+      - key: SESSION_BUDGET_USD
+        value: "0.50"
+      - key: DAILY_BUDGET_USD
+        value: "5.00"

@@ -1,0 +1,2661 @@
+{
+  "mode": "live",
+  "photos": 14,
+  "detections": [
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.16 PM.jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "minimal",
+      "latencyMs": 6383,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM.jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Bolsas pesadas en altura",
+          "samPhrase": "medical iv bags",
+          "box": {
+            "x1": 487,
+            "y1": 567,
+            "x2": 645,
+            "y2": 718
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.6015625,
+          "evidenceEs": "Bolsas con líquido colocadas en lo alto del soporte junto a la cama sin fijación visible que podrían caer.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "minimal",
+      "latencyMs": 11996,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wooden wardrobe",
+          "box": {
+            "x1": 378,
+            "y1": 243,
+            "x2": 665,
+            "y2": 1055
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.9140625,
+          "evidenceEs": "Armario alto de madera sin anclaje visible a la pared en el pasillo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Microondas pesado en alto",
+          "samPhrase": "microwave oven",
+          "box": {
+            "x1": 0,
+            "y1": 415,
+            "x2": 353,
+            "y2": 685
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.949367105960846,
+          "evidenceEs": "Microondas pesado colocado en alto sobre soporte sin sujeción visible.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Objetos pesados sobre armario",
+          "samPhrase": "toys on cabinet",
+          "box": {
+            "x1": 373,
+            "y1": 45,
+            "x2": 667,
+            "y2": 243
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Juguetes y objetos colocados sobre el armario alto que podrían caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-3",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Paso de puerta bloqueado",
+          "samPhrase": "storage boxes",
+          "box": {
+            "x1": 380,
+            "y1": 684,
+            "x2": 527,
+            "y2": 1106
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Cajas y maleta almacenadas en el paso de la puerta obstruyendo la salida.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "minimal",
+      "latencyMs": 11141,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Objetos pesados sobre armario",
+          "samPhrase": "luggage bags",
+          "box": {
+            "x1": 800,
+            "y1": 32,
+            "x2": 1165,
+            "y2": 378
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.70703125,
+          "evidenceEs": "Maletas y cajas pesadas apiladas sobre el armario que podrían caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor pesado en lo alto",
+          "samPhrase": "flat television",
+          "box": {
+            "x1": 1155,
+            "y1": 68,
+            "x2": 1279,
+            "y2": 419
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.8160918951034546,
+          "evidenceEs": "Televisor pesado colocado en lo alto del mueble que podría caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wooden wardrobe",
+          "box": {
+            "x1": 817,
+            "y1": 369,
+            "x2": 1078,
+            "y2": 959
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Mueble alto de madera sin anclaje visible a la pared en dormitorio.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "minimal",
+      "latencyMs": 7188,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Cajas pesadas sobre la cama",
+          "samPhrase": "storage boxes",
+          "box": {
+            "x1": 51,
+            "y1": 0,
+            "x2": 461,
+            "y2": 241
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.126953125,
+          "evidenceEs": "Cajas pesadas en repisa alta directamente sobre la cama que podrían caer en un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wardrobe",
+          "box": {
+            "x1": 1111,
+            "y1": 156,
+            "x2": 1279,
+            "y2": 929
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Armario alto de madera sin anclaje visible a la pared que podría volcarse.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (2).jpeg",
+      "roomKind": "bathroom",
+      "reasoningEffort": "minimal",
+      "latencyMs": 2270,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg",
+      "roomKind": "bathroom",
+      "reasoningEffort": "minimal",
+      "latencyMs": 5819,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en repisa abierta sobre inodoro",
+          "samPhrase": "open shelf",
+          "box": {
+            "x1": 144,
+            "y1": 442,
+            "x2": 456,
+            "y2": 698
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.59765625,
+          "evidenceEs": "Se observan frascos y objetos en repisas abiertas sin borde sobre el inodoro que podrían caer.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "minimal",
+      "latencyMs": 10634,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor pesado en altura",
+          "samPhrase": "television",
+          "box": {
+            "x1": 638,
+            "y1": 621,
+            "x2": 859,
+            "y2": 762
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.9296875,
+          "evidenceEs": "Televisor pesado sobre cómoda alta sin fijación visible que podría caerse con el sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Cómoda alta sin anclar",
+          "samPhrase": "wooden dresser",
+          "box": {
+            "x1": 632,
+            "y1": 755,
+            "x2": 908,
+            "y2": 1006
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.949367105960846,
+          "evidenceEs": "Cómoda alta bajo el televisor sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Cómoda alta sin anclar",
+          "samPhrase": "wooden dresser",
+          "box": {
+            "x1": 250,
+            "y1": 678,
+            "x2": 365,
+            "y2": 805
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Cómoda alta junto a la cama sin anclaje visible a la pared.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (5).jpeg",
+      "roomKind": "hallway",
+      "reasoningEffort": "minimal",
+      "latencyMs": 1892,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+      "roomKind": "kitchen",
+      "reasoningEffort": "minimal",
+      "latencyMs": 6190,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Paso bloqueado por objetos en puerta",
+          "samPhrase": "plastic basket",
+          "box": {
+            "x1": 724,
+            "y1": 652,
+            "x2": 895,
+            "y2": 958
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.72265625,
+          "evidenceEs": "Cubeta, bote y trapos obstruyen el paso de la puerta de la cocina.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en repisa abierta sin protección",
+          "samPhrase": "ceramic jars",
+          "box": {
+            "x1": 986,
+            "y1": 15,
+            "x2": 1279,
+            "y2": 278
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": null,
+          "evidenceEs": "Frascos de cerámica en repisa roja abierta sin borde de protección que pueden caer con el sismo.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg",
+      "roomKind": "kitchen",
+      "reasoningEffort": "minimal",
+      "latencyMs": 4058,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+      "roomKind": "living",
+      "reasoningEffort": "minimal",
+      "latencyMs": 7525,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "GLASS_OVER_REST_AREA",
+          "labelEs": "Cuadro grande sobre sofá",
+          "samPhrase": "framed picture",
+          "box": {
+            "x1": 1056,
+            "y1": 181,
+            "x2": 1279,
+            "y2": 398
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.703125,
+          "evidenceEs": "Cuadro grande con marco sobre el sofá de descanso del lado derecho.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wooden wardrobe",
+          "box": {
+            "x1": 0,
+            "y1": 139,
+            "x2": 180,
+            "y2": 859
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.921951174736023,
+          "evidenceEs": "Armario alto de madera junto a la pared sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor pesado en altura",
+          "samPhrase": "wall tv",
+          "box": {
+            "x1": 660,
+            "y1": 355,
+            "x2": 762,
+            "y2": 457
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Televisor pesado colocado en alto en la pared sin sujeción adicional visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+      "roomKind": "hallway",
+      "reasoningEffort": "minimal",
+      "latencyMs": 9039,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Cajas bloqueando pasillo",
+          "samPhrase": "cardboard boxes",
+          "box": {
+            "x1": 299,
+            "y1": 768,
+            "x2": 707,
+            "y2": 1245
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.984375,
+          "evidenceEs": "Cajas de cartón apiladas obstruyen el paso junto a la puerta del pasillo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Estante alto sin anclar",
+          "samPhrase": "corner shelf",
+          "box": {
+            "x1": 161,
+            "y1": 518,
+            "x2": 346,
+            "y2": 1235
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Estante alto esquinero sin anclaje visible a la pared en pasillo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Florero pesado en lo alto",
+          "samPhrase": "flower vase",
+          "box": {
+            "x1": 250,
+            "y1": 407,
+            "x2": 352,
+            "y2": 530
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Florero pesado colocado en lo alto del estante que podría caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-3",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en repisa abierta",
+          "samPhrase": "glass jars",
+          "box": {
+            "x1": 167,
+            "y1": 573,
+            "x2": 348,
+            "y2": 714
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": null,
+          "evidenceEs": "Frascos y vasos sobre repisa abierta sin borde de protección.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "minimal",
+      "latencyMs": 9978,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-3",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Paso bloqueado por vitrina",
+          "samPhrase": "glass display cabinet",
+          "box": {
+            "x1": 298,
+            "y1": 344,
+            "x2": 545,
+            "y2": 1179
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.79296875,
+          "evidenceEs": "Vitrina colocada en el centro del pasillo que obstruye la ruta de salida.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Estantería alta sin anclar",
+          "samPhrase": "metal shelving unit",
+          "box": {
+            "x1": 19,
+            "y1": 141,
+            "x2": 250,
+            "y2": 1203
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Estantería metálica alta llena de cajas sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Vitrina alta sin anclar",
+          "samPhrase": "glass display cabinet",
+          "box": {
+            "x1": 296,
+            "y1": 343,
+            "x2": 545,
+            "y2": 1179
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Vitrina alta y estrecha en medio del paso sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Cajas pesadas en lo alto",
+          "samPhrase": "cardboard boxes",
+          "box": {
+            "x1": 58,
+            "y1": 411,
+            "x2": 199,
+            "y2": 534
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.675126850605011,
+          "evidenceEs": "Cajas pesadas colocadas en lo alto de la estantería que podrían caer.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "minimal",
+      "latencyMs": 10248,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Vitrina alta sin anclar",
+          "samPhrase": "glass cabinet",
+          "box": {
+            "x1": 0,
+            "y1": 271,
+            "x2": 134,
+            "y2": 1279
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.94140625,
+          "evidenceEs": "Vitrina alta de vidrio a la izquierda sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Objeto pesado en alto",
+          "samPhrase": "decorative sphere",
+          "box": {
+            "x1": 799,
+            "y1": 562,
+            "x2": 881,
+            "y2": 645
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.827957034111023,
+          "evidenceEs": "Esfera decorativa pesada sobre la vitrina alta que podría caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Rompibles en repisa abierta",
+          "samPhrase": "wall shelf",
+          "box": {
+            "x1": 752,
+            "y1": 529,
+            "x2": 959,
+            "y2": 653
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "low",
+          "samConfidence": null,
+          "evidenceEs": "Frascos y objetos rompibles en repisa abierta sin borde de protección.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.16 PM.jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "low",
+      "latencyMs": 3501,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "low",
+      "latencyMs": 10257,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Objetos pesados sobre armario",
+          "samPhrase": "toys",
+          "box": {
+            "x1": 373,
+            "y1": 55,
+            "x2": 655,
+            "y2": 270
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.80078125,
+          "evidenceEs": "Se ven muñecas y juguetes pesados colocados sobre el armario alto que podrían caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wooden wardrobe",
+          "box": {
+            "x1": 374,
+            "y1": 269,
+            "x2": 665,
+            "y2": 1014
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.9024390578269958,
+          "evidenceEs": "Se observa un armario alto de madera sin anclaje visible a la pared que podría volcarse en un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Microondas en altura",
+          "samPhrase": "microwave",
+          "box": {
+            "x1": 0,
+            "y1": 442,
+            "x2": 307,
+            "y2": 689
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.9726027250289917,
+          "evidenceEs": "Se ve un microondas pesado instalado en alto sobre un soporte que podría caer en un sismo.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "low",
+      "latencyMs": 11126,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Maletas pesadas sobre armario",
+          "samPhrase": "stacked luggage",
+          "box": {
+            "x1": 804,
+            "y1": 33,
+            "x2": 1164,
+            "y2": 372
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.69140625,
+          "evidenceEs": "Se observan maletas y cajas pesadas apiladas sobre el armario que podrían caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor pesado en lo alto",
+          "samPhrase": "flat television",
+          "box": {
+            "x1": 1139,
+            "y1": 65,
+            "x2": 1279,
+            "y2": 411
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.8160918951034546,
+          "evidenceEs": "Se observa un televisor pesado colocado en lo alto del mueble que podría caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wooden wardrobe",
+          "box": {
+            "x1": 804,
+            "y1": 368,
+            "x2": 1111,
+            "y2": 959
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Se observa un armario alto de madera sin ningún anclaje visible a la pared.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "low",
+      "latencyMs": 10884,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Cajas pesadas sobre la cama",
+          "samPhrase": "storage boxes",
+          "box": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 465,
+            "y2": 288
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.66015625,
+          "evidenceEs": "Cajas y objetos pesados en repisa alta justo sobre la cama sin protección visible contra caídas.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Ropero alto sin anclar",
+          "samPhrase": "wardrobe",
+          "box": {
+            "x1": 1085,
+            "y1": 143,
+            "x2": 1279,
+            "y2": 924
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Ropero alto junto a la puerta sin anclaje visible a la pared.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (2).jpeg",
+      "roomKind": "bathroom",
+      "reasoningEffort": "low",
+      "latencyMs": 3080,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg",
+      "roomKind": "bathroom",
+      "reasoningEffort": "low",
+      "latencyMs": 8726,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Objetos en repisa abierta alta",
+          "samPhrase": "open shelf",
+          "box": {
+            "x1": 157,
+            "y1": 439,
+            "x2": 413,
+            "y2": 558
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.6640625,
+          "evidenceEs": "Se ven botellas y objetos sobre repisa abierta encima del inodoro sin borde de contención visible.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en repisa abierta",
+          "samPhrase": "open shelf",
+          "box": {
+            "x1": 168,
+            "y1": 634,
+            "x2": 430,
+            "y2": 726
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.8128654956817627,
+          "evidenceEs": "Se ven frascos y botellas sobre repisa abierta encima del inodoro sin borde de protección visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "low",
+      "latencyMs": 17059,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor pesado en altura",
+          "samPhrase": "television",
+          "box": {
+            "x1": 667,
+            "y1": 621,
+            "x2": 869,
+            "y2": 762
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.94140625,
+          "evidenceEs": "Se ve un televisor pesado sobre la cómoda sin sujeción visible que podría caer con el sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Cómoda alta sin anclar",
+          "samPhrase": "dresser",
+          "box": {
+            "x1": 634,
+            "y1": 742,
+            "x2": 942,
+            "y2": 1043
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.921951174736023,
+          "evidenceEs": "Se ve una cómoda alta de madera sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Cómoda alta sin anclar",
+          "samPhrase": "dresser",
+          "box": {
+            "x1": 245,
+            "y1": 659,
+            "x2": 387,
+            "y2": 838
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Se ve una cómoda alta de madera junto a la cama sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-3",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Adornos en repisa abierta",
+          "samPhrase": "open shelf",
+          "box": {
+            "x1": 322,
+            "y1": 538,
+            "x2": 413,
+            "y2": 627
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "low",
+          "samConfidence": null,
+          "evidenceEs": "Se ven varios objetos pequeños y adornos en repisas abiertas sin borde de protección al fondo.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (5).jpeg",
+      "roomKind": "hallway",
+      "reasoningEffort": "low",
+      "latencyMs": 6673,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+      "roomKind": "kitchen",
+      "reasoningEffort": "low",
+      "latencyMs": 12070,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Obstáculo en paso a cocina",
+          "samPhrase": "plastic basin",
+          "box": {
+            "x1": 778,
+            "y1": 680,
+            "x2": 872,
+            "y2": 772
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.52734375,
+          "evidenceEs": "Un recipiente y tapetes ocupan el paso de entrada a la cocina obstruyendo la circulación.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en repisa abierta",
+          "samPhrase": "glass jars",
+          "box": {
+            "x1": 1061,
+            "y1": 32,
+            "x2": 1279,
+            "y2": 129
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": null,
+          "evidenceEs": "Se ven varios frascos sobre una repisa abierta roja sin borde de protección que podrían caerse.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg",
+      "roomKind": "kitchen",
+      "reasoningEffort": "low",
+      "latencyMs": 10315,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Comal pesado en borde de ventana",
+          "samPhrase": "frying pan",
+          "box": {
+            "x1": 287,
+            "y1": 576,
+            "x2": 431,
+            "y2": 740
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.97265625,
+          "evidenceEs": "Comal negro pesado apoyado sin sujeción sobre el borde de la ventana de la cocina.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Botellas en repisa abierta sin borde",
+          "samPhrase": "cleaning bottles",
+          "box": {
+            "x1": 218,
+            "y1": 314,
+            "x2": 429,
+            "y2": 475
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": null,
+          "evidenceEs": "Botellas y frascos colocados en repisa abierta de madera sin borde de protección visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+      "roomKind": "living",
+      "reasoningEffort": "low",
+      "latencyMs": 11311,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "GLASS_OVER_REST_AREA",
+          "labelEs": "Cuadro grande sobre el sofá",
+          "samPhrase": "framed picture",
+          "box": {
+            "x1": 1006,
+            "y1": 206,
+            "x2": 1279,
+            "y2": 397
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.7265625,
+          "evidenceEs": "Cuadro grande con marco colgado en la pared justo encima del sofá.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto de madera sin anclar",
+          "samPhrase": "wooden wardrobe",
+          "box": {
+            "x1": 0,
+            "y1": 138,
+            "x2": 191,
+            "y2": 958
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.921951174736023,
+          "evidenceEs": "Mueble alto de madera junto al muro sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor pesado colocado en alto",
+          "samPhrase": "wall television",
+          "box": {
+            "x1": 668,
+            "y1": 381,
+            "x2": 753,
+            "y2": 457
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Televisor pesado colocado en alto en la pared sin sujeción visible.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-3",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "HANGING_FIXTURE_OVER_REST_AREA",
+          "labelEs": "Ventilador de techo sobre sillones",
+          "samPhrase": "ceiling fan",
+          "box": {
+            "x1": 525,
+            "y1": 374,
+            "x2": 666,
+            "y2": 427
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.9259259104728699,
+          "evidenceEs": "Ventilador de techo colgando sobre la zona de sillones al fondo.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+      "roomKind": "hallway",
+      "reasoningEffort": "low",
+      "latencyMs": 11806,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Cajas bloquean pasillo",
+          "samPhrase": "cardboard boxes",
+          "box": {
+            "x1": 298,
+            "y1": 755,
+            "x2": 682,
+            "y2": 1266
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.98828125,
+          "evidenceEs": "Varias cajas de cartón apiladas ocupan el pasillo junto a la puerta y obstruyen el paso.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Estantería alta sin anclar",
+          "samPhrase": "corner shelf",
+          "box": {
+            "x1": 161,
+            "y1": 525,
+            "x2": 330,
+            "y2": 1133
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Se observa una estantería esquinera alta con varios niveles y no se ve ningún anclaje a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en repisa abierta",
+          "samPhrase": "glass jars",
+          "box": {
+            "x1": 169,
+            "y1": 611,
+            "x2": 324,
+            "y2": 709
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": null,
+          "evidenceEs": "Se ven vasos, frascos y recipientes pequeños sobre una repisa abierta sin borde de protección.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "low",
+      "latencyMs": 11104,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Estantería alta sin anclar",
+          "samPhrase": "metal shelving unit",
+          "box": {
+            "x1": 40,
+            "y1": 104,
+            "x2": 226,
+            "y2": 1174
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.80859375,
+          "evidenceEs": "Estantería metálica alta llena de cajas sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Vitrina alta sin anclar",
+          "samPhrase": "display cabinet",
+          "box": {
+            "x1": 293,
+            "y1": 343,
+            "x2": 517,
+            "y2": 1093
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Vitrina alta y estrecha en medio del local sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Cajas pesadas en altura",
+          "samPhrase": "cardboard boxes",
+          "box": {
+            "x1": 62,
+            "y1": 448,
+            "x2": 192,
+            "y2": 570
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.675126850605011,
+          "evidenceEs": "Cajas pesadas colocadas en lo alto de la estantería que podrían caer.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "low",
+      "latencyMs": 16287,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Mochilas colgadas en lo alto",
+          "samPhrase": "hanging backpack",
+          "box": {
+            "x1": 197,
+            "y1": 326,
+            "x2": 346,
+            "y2": 467
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.8671875,
+          "evidenceEs": "Mochilas y bolsos colgados en lo alto del local que podrían caer sobre las personas durante un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Vitrina alta sin anclar",
+          "samPhrase": "display cabinet",
+          "box": {
+            "x1": 0,
+            "y1": 237,
+            "x2": 158,
+            "y2": 1276
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Vitrina alta de vidrio a la izquierda sin anclaje visible a la pared que podría volcarse en un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Estante abierto con rompibles",
+          "samPhrase": "wall shelf",
+          "box": {
+            "x1": 730,
+            "y1": 499,
+            "x2": 959,
+            "y2": 627
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": null,
+          "evidenceEs": "Estantes abiertos en la pared derecha con frascos y objetos rompibles sin borde de protección visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.16 PM.jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "medium",
+      "latencyMs": 7367,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "medium",
+      "latencyMs": 15062,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Juguetes sobre armario",
+          "samPhrase": "toys",
+          "box": {
+            "x1": 356,
+            "y1": 59,
+            "x2": 647,
+            "y2": 255
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.84765625,
+          "evidenceEs": "Se observan juguetes y objetos colocados sobre el armario alto que podrían caer en un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wardrobe",
+          "box": {
+            "x1": 355,
+            "y1": 256,
+            "x2": 658,
+            "y2": 1011
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.5508772134780884,
+          "evidenceEs": "Se observa un armario alto de madera sin anclaje visible a la pared que podría volcarse en un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.16 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Microondas elevado",
+          "samPhrase": "microwave oven",
+          "box": {
+            "x1": 0,
+            "y1": 426,
+            "x2": 318,
+            "y2": 687
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.949367105960846,
+          "evidenceEs": "Se observa un microondas pesado colocado en alto sobre un soporte que podría caer en un sismo.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "medium",
+      "latencyMs": 19930,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Maletas pesadas sobre armario alto",
+          "samPhrase": "stored luggage",
+          "box": {
+            "x1": 794,
+            "y1": 29,
+            "x2": 1165,
+            "y2": 374
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.69140625,
+          "evidenceEs": "Maletas y bultos pesados apilados sobre el armario que podrían caer desde lo alto.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor pesado en lo alto",
+          "samPhrase": "television",
+          "box": {
+            "x1": 1146,
+            "y1": 62,
+            "x2": 1279,
+            "y2": 408
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.8518518805503845,
+          "evidenceEs": "Televisor pesado colocado en lo alto del mueble que podría caer con el sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM.jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar a la pared",
+          "samPhrase": "wooden wardrobe",
+          "box": {
+            "x1": 813,
+            "y1": 370,
+            "x2": 1050,
+            "y2": 959
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Armario alto de madera sin anclaje visible a la pared que podría volcarse con el sismo.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "medium",
+      "latencyMs": 28423,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Cajas pesadas en estante alto sobre cama",
+          "samPhrase": "stacked boxes",
+          "box": {
+            "x1": 23,
+            "y1": 0,
+            "x2": 534,
+            "y2": 333
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.65234375,
+          "evidenceEs": "Cajas y objetos almacenados en estante alto sobre la cama sin contencion visible que podrian caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wardrobe",
+          "box": {
+            "x1": 1088,
+            "y1": 167,
+            "x2": 1279,
+            "y2": 892
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Armario alto de madera sin anclaje visible a la pared que podria volcarse con el sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (1).jpeg",
+          "type": "GLASS_OVER_REST_AREA",
+          "labelEs": "Cuadro sobre zona de descanso",
+          "samPhrase": "wall picture",
+          "box": {
+            "x1": 681,
+            "y1": 316,
+            "x2": 781,
+            "y2": 420
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Cuadro con marco colgado en la pared junto a la cabecera de la cama sin fijacion visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (2).jpeg",
+      "roomKind": "bathroom",
+      "reasoningEffort": "medium",
+      "latencyMs": 5272,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg",
+      "roomKind": "bathroom",
+      "reasoningEffort": "medium",
+      "latencyMs": 14554,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (3).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en repisa abierta sin borde",
+          "samPhrase": "shelf bottles",
+          "box": {
+            "x1": 158,
+            "y1": 602,
+            "x2": 434,
+            "y2": 717
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.65234375,
+          "evidenceEs": "Repisa abierta sobre el inodoro con frascos y botellas sin borde de protección visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+      "roomKind": "bedroom",
+      "reasoningEffort": "medium",
+      "latencyMs": 21717,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor pesado en altura",
+          "samPhrase": "television",
+          "box": {
+            "x1": 619,
+            "y1": 608,
+            "x2": 855,
+            "y2": 730
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.486328125,
+          "evidenceEs": "Se observa un televisor encendido colocado sobre una cómoda alta que podría caer con el sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Cómoda alta sin anclaje",
+          "samPhrase": "dresser",
+          "box": {
+            "x1": 227,
+            "y1": 654,
+            "x2": 361,
+            "y2": 809
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Se observa una cómoda alta junto a la cama sin que se vea ningún anclaje a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (4).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Cómoda alta sin anclaje",
+          "samPhrase": "chest of drawers",
+          "box": {
+            "x1": 626,
+            "y1": 710,
+            "x2": 912,
+            "y2": 992
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.6640419960021973,
+          "evidenceEs": "Se observa una cómoda alta que sostiene el televisor sin que se vea ningún anclaje a la pared.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (5).jpeg",
+      "roomKind": "hallway",
+      "reasoningEffort": "medium",
+      "latencyMs": 5235,
+      "hazards": []
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+      "roomKind": "kitchen",
+      "reasoningEffort": "medium",
+      "latencyMs": 15458,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Paso bloqueado por cubeta y botes",
+          "samPhrase": "plastic basket",
+          "box": {
+            "x1": 755,
+            "y1": 586,
+            "x2": 896,
+            "y2": 778
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.5078125,
+          "evidenceEs": "Una cubeta morada y botes ocupan el paso de entrada a la cocina obstruyendo la circulación.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (6).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en repisa abierta sin borde",
+          "samPhrase": "storage jars",
+          "box": {
+            "x1": 1056,
+            "y1": 29,
+            "x2": 1279,
+            "y2": 130
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": null,
+          "evidenceEs": "Se observan cuatro frascos sobre una repisa roja abierta sin borde de protección visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg",
+      "roomKind": "kitchen",
+      "reasoningEffort": "medium",
+      "latencyMs": 13774,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Comal pesado en repisa",
+          "samPhrase": "frying pan",
+          "box": {
+            "x1": 288,
+            "y1": 547,
+            "x2": 467,
+            "y2": 725
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.953125,
+          "evidenceEs": "Comal negro pesado apoyado en el borde de la ventana que podría caer con el sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (7).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Botellas en estante abierto",
+          "samPhrase": "cleaning bottles",
+          "box": {
+            "x1": 246,
+            "y1": 305,
+            "x2": 429,
+            "y2": 470
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.8750000596046448,
+          "evidenceEs": "Se ven botellas y frascos en un estante abierto sin borde de retención visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+      "roomKind": "living",
+      "reasoningEffort": "medium",
+      "latencyMs": 20105,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "GLASS_OVER_REST_AREA",
+          "labelEs": "Cuadro grande sobre sofá",
+          "samPhrase": "framed picture",
+          "box": {
+            "x1": 1107,
+            "y1": 182,
+            "x2": 1279,
+            "y2": 370
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.51171875,
+          "evidenceEs": "Cuadro grande con marco sobre el sofa de la derecha que podria caer sobre las personas.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Armario alto sin anclar",
+          "samPhrase": "wardrobe",
+          "box": {
+            "x1": 0,
+            "y1": 166,
+            "x2": 189,
+            "y2": 893
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.8160918951034546,
+          "evidenceEs": "Armario alto de madera a la izquierda sin anclaje visible a la pared que podria volcarse en un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Televisor alto sin asegurar",
+          "samPhrase": "wall television",
+          "box": {
+            "x1": 722,
+            "y1": 356,
+            "x2": 819,
+            "y2": 456
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Televisor pesado montado en lo alto de la pared sin seguridad sismica visible que podria caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg-3",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (8).jpeg",
+          "type": "HANGING_FIXTURE_OVER_REST_AREA",
+          "labelEs": "Ventilador de techo sobre sala",
+          "samPhrase": "ceiling fan",
+          "box": {
+            "x1": 602,
+            "y1": 377,
+            "x2": 717,
+            "y2": 428
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": true,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Ventilador de techo al fondo sobre la zona de sofas sin fijacion sismica visible.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+      "roomKind": "hallway",
+      "reasoningEffort": "medium",
+      "latencyMs": 20290,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Cajas bloqueando pasillo",
+          "samPhrase": "cardboard boxes",
+          "box": {
+            "x1": 301,
+            "y1": 792,
+            "x2": 685,
+            "y2": 1242
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.98828125,
+          "evidenceEs": "Pilas de cajas de cartón en el pasillo junto a la puerta que obstruyen la salida.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Estante alto sin anclar",
+          "samPhrase": "shelf unit",
+          "box": {
+            "x1": 154,
+            "y1": 563,
+            "x2": 350,
+            "y2": 1171
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.7815700173377991,
+          "evidenceEs": "Estante alto de varios niveles contra la pared sin anclaje visible que puede volcarse en un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (9).jpeg",
+          "type": "BREAKABLES_OPEN_SHELF",
+          "labelEs": "Frascos en estante abierto",
+          "samPhrase": "glass jars",
+          "box": {
+            "x1": 165,
+            "y1": 646,
+            "x2": 346,
+            "y2": 737
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "mid",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "high",
+          "samConfidence": null,
+          "evidenceEs": "Frascos, vasos y objetos de vidrio en repisa abierta sin borde que pueden caer durante un sismo.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "medium",
+      "latencyMs": 20815,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-4",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "EXIT_PATH_BLOCKED",
+          "labelEs": "Paso bloqueado por vitrina",
+          "samPhrase": "display cabinet",
+          "box": {
+            "x1": 302,
+            "y1": 365,
+            "x2": 530,
+            "y2": 1124
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "high",
+          "samConfidence": 0.86328125,
+          "evidenceEs": "Vitrina colocada en medio del pasillo que estrecha y obstruye la ruta de salida.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Estantería alta sin anclar",
+          "samPhrase": "metal shelving unit",
+          "box": {
+            "x1": 29,
+            "y1": 90,
+            "x2": 254,
+            "y2": 1178
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Estantería metálica alta llena de cajas sin anclaje visible a la pared en el pasillo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Vitrina alta sin anclar",
+          "samPhrase": "glass display case",
+          "box": {
+            "x1": 302,
+            "y1": 365,
+            "x2": 530,
+            "y2": 1124
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": true
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Vitrina alta de vidrio en medio del paso sin anclaje visible a la pared o piso.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Cajas pesadas en altura",
+          "samPhrase": "cardboard boxes",
+          "box": {
+            "x1": 67,
+            "y1": 424,
+            "x2": 226,
+            "y2": 550
+          },
+          "maskPath": null,
+          "maskSource": "sam_concept",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.675126850605011,
+          "evidenceEs": "Cajas apiladas en la parte alta de la estantería que podrían caer con un sismo.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg-3",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.17 PM (10).jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Objeto pesado sobre vitrina",
+          "samPhrase": "decorative object",
+          "box": {
+            "x1": 312,
+            "y1": 288,
+            "x2": 516,
+            "y2": 410
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Caja y adorno colocados sobre la vitrina alta sin sujeción que podrían caer.",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "file": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+      "roomKind": "other",
+      "reasoningEffort": "medium",
+      "latencyMs": 17939,
+      "hazards": [
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-0",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "TALL_FURNITURE_UNANCHORED",
+          "labelEs": "Vitrina alta sin anclar",
+          "samPhrase": "display cabinet",
+          "box": {
+            "x1": 0,
+            "y1": 243,
+            "x2": 149,
+            "y2": 1279
+          },
+          "maskPath": null,
+          "maskSource": "sam_box",
+          "flags": {
+            "heightLevel": "floor",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": 0.94140625,
+          "evidenceEs": "Vitrina alta de vidrio a la izquierda sin anclaje visible a la pared.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-1",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Mochilas colgadas en lo alto",
+          "samPhrase": "hanging bags",
+          "box": {
+            "x1": 103,
+            "y1": 250,
+            "x2": 624,
+            "y2": 550
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "medium",
+          "samConfidence": null,
+          "evidenceEs": "Mochilas y peluches pesados colgados del techo sin fijación segura que pueden caer.",
+          "status": "open"
+        },
+        {
+          "id": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg-2",
+          "roomId": "eval",
+          "photoId": "WhatsApp Image 2026-10-26 at 10.13.18 PM.jpeg",
+          "type": "HEAVY_OBJECT_HIGH",
+          "labelEs": "Esfera decorativa en alto",
+          "samPhrase": "decorative sphere",
+          "box": {
+            "x1": 821,
+            "y1": 530,
+            "x2": 913,
+            "y2": 613
+          },
+          "maskPath": null,
+          "maskSource": "none",
+          "flags": {
+            "heightLevel": "high",
+            "nearRestArea": false,
+            "blocksExitPath": false
+          },
+          "modelConfidence": "low",
+          "samConfidence": null,
+          "evidenceEs": "Esfera pesada sobre la vitrina sin sujeción que podría caer con el sismo.",
+          "status": "open"
+        }
+      ]
+    }
+  ],
+  "metrics": null,
+  "note": "Mark detections in review.html, then compute precision/recall; do not fabricate metrics.",
+  "estimatedCostUsd": 0.84
+}

@@ -4,11 +4,11 @@ services:
     runtime: node
     plan: starter
     healthCheckPath: /api/health
-    buildCommand: corepack enable && corepack pnpm install && corepack pnpm -r build
-    startCommand: corepack pnpm --filter @simulacro/api exec tsx src/main.ts
+    buildCommand: npm install -g pnpm@10 && pnpm install && pnpm -r build
+    startCommand: pnpm --filter @simulacro/api exec tsx src/main.ts
     envVars:
       - key: NODE_VERSION
-        value: "22"
+        value: "22.17.0"
       - key: MODEL_API_KEY
         sync: false
       - key: DEMO_ACCESS_CODE
